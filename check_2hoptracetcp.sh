@@ -1,5 +1,5 @@
 #! /bin/bash
-PROG="/usr/bin/traceroute -n"
+PROG="sudo /bin/traceroute -n -T"
 GREP="/bin/egrep"
 HOST=$1
 FILE=/tmp/check_tracert-`date +%N`.txt
